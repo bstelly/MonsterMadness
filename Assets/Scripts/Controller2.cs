@@ -35,6 +35,18 @@ public class Controller2 : MonoBehaviour {
             else { Debug.Log("Don't press me >:("); }
 
         }
+        if (Input.GetButton("Fire1.2"))
+        {
+            Debug.Log("Supa Hot Fiya P2");
+        }
+        if (Input.GetButton("Fire2.2"))
+        {
+            Debug.Log("Basic Attack P2");
+        }
+        if(Input.GetButton("Fire3.2"))
+        {
+            Debug.Log("Meelee P2");
+        }
     }
 
     void OnCollisionEnter(Collision theCollision)
