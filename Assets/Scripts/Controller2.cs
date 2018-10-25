@@ -33,7 +33,6 @@ public class Controller2 : MonoBehaviour {
                 transform.position += Vector3.up * 100f * Time.deltaTime;
             }
             else { Debug.Log("Don't press me >:("); }
-
         }
         if (Input.GetButton("Fire1.2"))
         {

@@ -184,10 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81feca70462d8354587f93a2ea39659d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FireBall: {fileID: 1217270119411664, guid: d43c03bf56f1c4745acb72bdccdc81ed, type: 2}
-  Boulder: {fileID: 1582197063973480, guid: 28dcb2068ea560d4ca53ad6b2f962793, type: 2}
-  player1: {fileID: 1639689892737154}
-  player2: {fileID: 1274013268116032, guid: 5e07e0a00b4e4384a9bcf8b11475cc56, type: 2}
+  rangedItem: {fileID: 1217270119411664, guid: d43c03bf56f1c4745acb72bdccdc81ed, type: 2}
   onRangePress: {fileID: 11400000, guid: 5872b84fbe2e7eb47b0ccc7410fcd0ef, type: 2}
 --- !u!135 &135963889826069964
 SphereCollider:

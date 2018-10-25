@@ -36,7 +36,7 @@ public class Movement : MonoBehaviour {
         }
         if (Input.GetButton("Fire1"))
         {
-            Debug.Log("Supa Hot Fiya P1");
+            //Debug.Log("Supa Hot Fiya P1");
         }
         if (Input.GetButton("Fire2"))
         {
