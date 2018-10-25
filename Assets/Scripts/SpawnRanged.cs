@@ -18,7 +18,7 @@ public class SpawnRanged : MonoBehaviour
     public void SpawnItem()
     {
 
-        Instantiate(rangedItem);
+        Instantiate(rangedItem, transform.position, Quaternion.identity);
     }
 
     public void OnButtonPressAction()

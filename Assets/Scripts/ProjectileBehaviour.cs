@@ -8,7 +8,7 @@ public class ProjectileBehaviour : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        transform.position = startPos.transform.position;	
+        //transform.position = startPos.transform.position;	
 	}
 	
 	// Update is called once per frame
