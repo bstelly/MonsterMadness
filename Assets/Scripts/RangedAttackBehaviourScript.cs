@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackBehaviourScript : MonoBehaviour
+public class RangedAttackBehaviourScript : MonoBehaviour
 {
 
-    public int damage = 10;
+    public int damage = 3;
 
     public int Health;
     public int health
@@ -16,7 +16,7 @@ public class AttackBehaviourScript : MonoBehaviour
 
     int Attack(int amount)
     {
-        for (amount = damage; Health > 0; )
+        for (amount = damage; Health > 0;)
         {
             Health -= damage;
             return health;

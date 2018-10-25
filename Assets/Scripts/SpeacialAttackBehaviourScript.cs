@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackBehaviourScript : MonoBehaviour
+public class SpeacialAttackBehaviourScript : MonoBehaviour
 {
 
     public int damage = 10;
@@ -16,7 +16,7 @@ public class AttackBehaviourScript : MonoBehaviour
 
     int Attack(int amount)
     {
-        for (amount = damage; Health > 0; )
+        for (amount = damage; Health > 0;)
         {
             Health -= damage;
             return health;
