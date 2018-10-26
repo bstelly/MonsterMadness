@@ -1167,6 +1167,9 @@ ModelImporter:
     102322: Godzilla_tail_TopTargetLctr
     102324: Godzilla_tail_TopTX_Lctr
     102326: Godzilla_tailGrp
+    102328: Godzilla_Low:polySurface2
+    102330: Godzilla_Low:polySurface5
+    102332: Godzilla_Low:ZBrush_defualt_group2
     400000: Godzilla
     400002: Godzilla1
     400004: Godzilla_COG_Ctrl
@@ -2331,8 +2334,18 @@ ModelImporter:
     402322: Godzilla_tail_TopTargetLctr
     402324: Godzilla_tail_TopTX_Lctr
     402326: Godzilla_tailGrp
+    402328: Godzilla_Low:polySurface2
+    402330: Godzilla_Low:polySurface5
+    402332: Godzilla_Low:ZBrush_defualt_group2
     2100000: Godzilla_UV_initialShadingGroup1
+    2100002: lambert3
+    2300000: Godzilla_Low:polySurface2
+    2300002: Godzilla_Low:polySurface5
+    3300000: Godzilla_Low:polySurface2
+    3300002: Godzilla_Low:polySurface5
     4300000: Godzilla1
+    4300002: Godzilla_Low:polySurface2
+    4300004: Godzilla_Low:polySurface5
     7400000: Take 001
     9500000: //RootNode
     13700000: Godzilla1

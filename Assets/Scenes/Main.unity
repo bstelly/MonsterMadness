@@ -118,6 +118,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 101876, guid: f6c1b4aedb02b2d4ea96bbded21b3ae7,
     type: 3}
   m_PrefabInternal: {fileID: 802079364}
+--- !u!65 &4727299
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4727296}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3608556, y: 8.036614, z: 9.097518}
+  m_Center: {x: -0.25495696, y: 4.04477, z: -1.6749458}
 --- !u!1 &17343734
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +707,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4982430593042354, guid: 8557184cb77b42d4b8fb02964ba40e94, type: 2}
       propertyPath: m_LocalScale.x
-      value: 3.81
+      value: 1.62
       objectReference: {fileID: 0}
     - target: {fileID: 4982430593042354, guid: 8557184cb77b42d4b8fb02964ba40e94, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -919,6 +931,57 @@ MonoBehaviour:
   health: {fileID: 11400000, guid: c262f8034c79ff14e977a9f06c11003b, type: 2}
   onPunch: {fileID: 11400000, guid: 2b8e5353442fe2c4b91cf76d13e3902e, type: 2}
   punch: {fileID: 0}
+--- !u!54 &473253457
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 473253452}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 120
+  m_CollisionDetection: 0
+--- !u!65 &473253458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 473253452}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.8185587, y: 7.16132, z: 2.8108318}
+  m_Center: {x: -0.9386668, y: 3.6112092, z: -0.20376396}
+--- !u!114 &473253459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 473253452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3febed0f35797e42be8452594135d66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
+--- !u!114 &473253460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 473253452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de9fbe688a8bdb4e944a090b10504d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
 --- !u!1 &496318575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2404,9 +2467,10 @@ GameObject:
   - component: {fileID: 1849312071}
   - component: {fileID: 1849312073}
   - component: {fileID: 1849312072}
+  - component: {fileID: 1849312074}
   m_Layer: 0
   m_Name: WalkWay
-  m_TagString: Untagged
+  m_TagString: Plane
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2469,6 +2533,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1849312070}
   m_Mesh: {fileID: 4300000, guid: 0d9c727cc157b7b48b70e8d51daf22de, type: 3}
+--- !u!65 &1849312074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1849312070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20738.541, y: 20, z: 650}
+  m_Center: {x: 5709.229, y: 0, z: 0}
 --- !u!1 &1878682472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,7 +2710,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 023eecf3978695c41b39da77a98f64bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.28
+      value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 023eecf3978695c41b39da77a98f64bb, type: 3}
       propertyPath: m_LocalPosition.z
