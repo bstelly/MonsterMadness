@@ -33,7 +33,6 @@ public class Movement : MonoBehaviour {
                 transform.position += Vector3.up * 50f * Time.deltaTime;
             }
             else { Debug.Log("Don't press me >:("); }
-            
         }
     }
 
