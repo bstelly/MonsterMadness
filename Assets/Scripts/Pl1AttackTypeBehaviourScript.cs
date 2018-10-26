@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pl1AttackTypeBehaviourScript : Pl2AttackBehaviourScript
+public class Pl1AttackTypeBehaviourScript : MonoBehaviour
 {
     GameObject P1;
+    public GameObject P2;
     public int pl1meleeDamage = 5;
     public int pl1rangedDamage = 3;
     public int pl1specialDamage = 8;
@@ -25,7 +26,7 @@ public class Pl1AttackTypeBehaviourScript : Pl2AttackBehaviourScript
     }
     void start()
     {
-
+        
     }
     int pl1meleeAttack(int amount)
     {
@@ -55,52 +56,51 @@ public class Pl1AttackTypeBehaviourScript : Pl2AttackBehaviourScript
         }
         return pl1health;
     }
-    void pl1doMeleeAttack(Collider collision)
-    {
 
-        for (pl1meleeAttack(5); pl1health > 0;)
-        {
-            collision.gameObject.CompareTag("Pl2");
-        }
-        if (Input.GetButton("Fire0") == true)
-        {
+    void pl1doMeleeAttack()
+    {
             pl1meleeAttack(5);
-        }
-
+            Debug.Log("Melee");
     }
-    void pl1doRangedAttack(Collider collision)
-    {
-        for (pl1rangedAttack(3); pl1health > 0;)
-        {
-            collision.gameObject.CompareTag("Pl2");
 
-            if (Input.GetButton("Fire2") == true)
-            {
-                pl1rangedAttack(3);
-            }
-        }
+    void pl1doRangedAttack()
+    {
+        pl1rangedAttack(3);
+        Debug.Log("Wrekt");
     }
-    void pl2doSpecialAttack(Collider collision)
+
+    void pl1doSpecialAttack()
     {
-        for (pl1SpecialAttack(8); pl1health > 0;)
-        {
-            collision.gameObject.CompareTag("Pl2");
-
-            if (Input.GetButton("Fire") == true)
-            {
-                pl1SpecialAttack(8);
-            }
-        }
-
+            pl1SpecialAttack(8);
+            Debug.Log("Special");   
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire4"))
+        if (Input.GetButton("Fire1"))
         {
+            pl1doRangedAttack();
             isAttacking = true;
         }
+        if (Input.GetButton("Fire4"))
+        {
+            enableBlocking();
+            isAttacking = true;
+        }
+        if (Input.GetButton("Fire2"))
+        {
+            pl1doMeleeAttack();
+            isAttacking = true;
+        }
+        if (Input.GetButton("Fire3"))
+        {
+            pl1doSpecialAttack();
+            isAttacking = true;
+        }
+        
+
         EnableDamage();
+
     }
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -120,10 +120,10 @@ public class Pl1AttackTypeBehaviourScript : Pl2AttackBehaviourScript
     }
     void enableBlocking()
     {
-        if (Input.GetButtonDown("Fire3") == true)
+        if (Input.GetButtonDown("Fire4") == true)
         {
             isBlocking = true;
-        }
+        }Debug.Log("IsBlocking");
     }
     IEnumerator DisableDamage()
     {
