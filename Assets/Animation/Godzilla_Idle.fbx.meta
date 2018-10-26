@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: dea062aa115b1f5468e5730db5179c4a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Godzilla1
+    100002: Godzilla_Head_JawEndSHJnt
+    100004: Godzilla_Head_JawSHJnt
+    100006: Godzilla_Head_TopSHJnt
+    100008: //RootNode
+    100010: Godzilla_l_Arm_ClavicleSHJnt
+    100012: Godzilla_l_Arm_ElbowSHJnt
+    100014: Godzilla_l_Arm_ShoulderSHJnt
+    100016: Godzilla_l_Arm_WristSHJnt
+    100018: Godzilla_l_Eye_01SHJnt
+    100020: Godzilla_l_fingers_01_01SHJnt
+    100022: Godzilla_l_fingers_01_02SHJnt
+    100024: Godzilla_l_fingers_01_03SHJnt
+    100026: Godzilla_l_fingers_02_01SHJnt
+    100028: Godzilla_l_fingers_02_02SHJnt
+    100030: Godzilla_l_fingers_02_03SHJnt
+    100032: Godzilla_l_fingers_03_01SHJnt
+    100034: Godzilla_l_fingers_03_02SHJnt
+    100036: Godzilla_l_fingers_03_03SHJnt
+    100038: Godzilla_l_Leg_AnkleSHJnt
+    100040: Godzilla_l_Leg_BallSHJnt
+    100042: Godzilla_l_Leg_HipSHJnt
+    100044: Godzilla_l_Leg_KneeSHJnt
+    100046: Godzilla_l_Leg_ToeSHJnt
+    100048: Godzilla_l_thumb_01_01SHJnt
+    100050: Godzilla_l_thumb_01_02SHJnt
+    100052: Godzilla_l_thumb_01_03SHJnt
+    100054: Godzilla_Neck_01SHJnt
+    100056: Godzilla_Neck_02SHJnt
+    100058: Godzilla_Neck_TopSHJnt
+    100060: Godzilla_r_Arm_ClavicleSHJnt
+    100062: Godzilla_r_Arm_ElbowSHJnt
+    100064: Godzilla_r_Arm_ShoulderSHJnt
+    100066: Godzilla_r_Arm_WristSHJnt
+    100068: Godzilla_r_Eye_01SHJnt
+    100070: Godzilla_r_fingers_01_01SHJnt
+    100072: Godzilla_r_fingers_01_02SHJnt
+    100074: Godzilla_r_fingers_01_03SHJnt
+    100076: Godzilla_r_fingers_02_01SHJnt
+    100078: Godzilla_r_fingers_02_02SHJnt
+    100080: Godzilla_r_fingers_02_03SHJnt
+    100082: Godzilla_r_fingers_03_01SHJnt
+    100084: Godzilla_r_fingers_03_02SHJnt
+    100086: Godzilla_r_fingers_03_03SHJnt
+    100088: Godzilla_r_Leg_AnkleSHJnt
+    100090: Godzilla_r_Leg_BallSHJnt
+    100092: Godzilla_r_Leg_HipSHJnt
+    100094: Godzilla_r_Leg_KneeSHJnt
+    100096: Godzilla_r_Leg_ToeSHJnt
+    100098: Godzilla_r_thumb_01_01SHJnt
+    100100: Godzilla_r_thumb_01_02SHJnt
+    100102: Godzilla_r_thumb_01_03SHJnt
+    100104: Godzilla_ROOTSHJnt
+    100106: Godzilla_SHJntGrp
+    100108: Godzilla_Spine_01SHJnt
+    100110: Godzilla_Spine_02SHJnt
+    100112: Godzilla_Spine_03SHJnt
+    100114: Godzilla_Spine_04SHJnt
+    100116: Godzilla_Spine_TopSHJnt
+    100118: Godzilla_tail_01SHJnt
+    100120: Godzilla_tail_02SHJnt
+    100122: Godzilla_tail_03SHJnt
+    100124: Godzilla_tail_04SHJnt
+    100126: Godzilla_tail_05SHJnt
+    100128: Godzilla_tail_TopSHJnt
+    400000: Godzilla1
+    400002: Godzilla_Head_JawEndSHJnt
+    400004: Godzilla_Head_JawSHJnt
+    400006: Godzilla_Head_TopSHJnt
+    400008: //RootNode
+    400010: Godzilla_l_Arm_ClavicleSHJnt
+    400012: Godzilla_l_Arm_ElbowSHJnt
+    400014: Godzilla_l_Arm_ShoulderSHJnt
+    400016: Godzilla_l_Arm_WristSHJnt
+    400018: Godzilla_l_Eye_01SHJnt
+    400020: Godzilla_l_fingers_01_01SHJnt
+    400022: Godzilla_l_fingers_01_02SHJnt
+    400024: Godzilla_l_fingers_01_03SHJnt
+    400026: Godzilla_l_fingers_02_01SHJnt
+    400028: Godzilla_l_fingers_02_02SHJnt
+    400030: Godzilla_l_fingers_02_03SHJnt
+    400032: Godzilla_l_fingers_03_01SHJnt
+    400034: Godzilla_l_fingers_03_02SHJnt
+    400036: Godzilla_l_fingers_03_03SHJnt
+    400038: Godzilla_l_Leg_AnkleSHJnt
+    400040: Godzilla_l_Leg_BallSHJnt
+    400042: Godzilla_l_Leg_HipSHJnt
+    400044: Godzilla_l_Leg_KneeSHJnt
+    400046: Godzilla_l_Leg_ToeSHJnt
+    400048: Godzilla_l_thumb_01_01SHJnt
+    400050: Godzilla_l_thumb_01_02SHJnt
+    400052: Godzilla_l_thumb_01_03SHJnt
+    400054: Godzilla_Neck_01SHJnt
+    400056: Godzilla_Neck_02SHJnt
+    400058: Godzilla_Neck_TopSHJnt
+    400060: Godzilla_r_Arm_ClavicleSHJnt
+    400062: Godzilla_r_Arm_ElbowSHJnt
+    400064: Godzilla_r_Arm_ShoulderSHJnt
+    400066: Godzilla_r_Arm_WristSHJnt
+    400068: Godzilla_r_Eye_01SHJnt
+    400070: Godzilla_r_fingers_01_01SHJnt
+    400072: Godzilla_r_fingers_01_02SHJnt
+    400074: Godzilla_r_fingers_01_03SHJnt
+    400076: Godzilla_r_fingers_02_01SHJnt
+    400078: Godzilla_r_fingers_02_02SHJnt
+    400080: Godzilla_r_fingers_02_03SHJnt
+    400082: Godzilla_r_fingers_03_01SHJnt
+    400084: Godzilla_r_fingers_03_02SHJnt
+    400086: Godzilla_r_fingers_03_03SHJnt
+    400088: Godzilla_r_Leg_AnkleSHJnt
+    400090: Godzilla_r_Leg_BallSHJnt
+    400092: Godzilla_r_Leg_HipSHJnt
+    400094: Godzilla_r_Leg_KneeSHJnt
+    400096: Godzilla_r_Leg_ToeSHJnt
+    400098: Godzilla_r_thumb_01_01SHJnt
+    400100: Godzilla_r_thumb_01_02SHJnt
+    400102: Godzilla_r_thumb_01_03SHJnt
+    400104: Godzilla_ROOTSHJnt
+    400106: Godzilla_SHJntGrp
+    400108: Godzilla_Spine_01SHJnt
+    400110: Godzilla_Spine_02SHJnt
+    400112: Godzilla_Spine_03SHJnt
+    400114: Godzilla_Spine_04SHJnt
+    400116: Godzilla_Spine_TopSHJnt
+    400118: Godzilla_tail_01SHJnt
+    400120: Godzilla_tail_02SHJnt
+    400122: Godzilla_tail_03SHJnt
+    400124: Godzilla_tail_04SHJnt
+    400126: Godzilla_tail_05SHJnt
+    400128: Godzilla_tail_TopSHJnt
+    2100000: lambert3
+    4300000: Godzilla1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Godzilla1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
