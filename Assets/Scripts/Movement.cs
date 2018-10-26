@@ -34,18 +34,6 @@ public class Movement : MonoBehaviour {
             }
             else { Debug.Log("Don't press me >:("); }
         }
-        if (Input.GetButton("Fire1"))
-        {
-            //Debug.Log("Supa Hot Fiya P1");
-        }
-        if (Input.GetButton("Fire2"))
-        {
-            Debug.Log("Basic Attack P1");
-        }
-        if (Input.GetButton("Fire3"))
-        {
-            Debug.Log("Meelee P1");
-        }
     }
 
     void OnCollisionEnter(Collision theCollision)

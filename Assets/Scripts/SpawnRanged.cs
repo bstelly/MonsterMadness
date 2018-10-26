@@ -7,12 +7,17 @@ public class SpawnRanged : MonoBehaviour
     public GameObject rangedItem;
     public GameEvent onRangePress;
 
-    private bool fired = false;
+    protected bool fired = false;
 
 
     void Update()
     {
-        OnButtonPressAction();
+        if(Input.GetButton("Fire1") && !IsInvoking("OnButtonPressAction"))
+        {
+            fired = false;
+            Invoke("OnButtonPressAction", 0);
+            fired = true;
+        }
     }
 
     public void SpawnItem()
@@ -22,16 +27,14 @@ public class SpawnRanged : MonoBehaviour
     }
 
     public void OnButtonPressAction()
-    {
+    {        
         if (Input.GetButton("Fire1"))
         {
             if (fired == false)
             {
                 StartCoroutine(ResetAttack());
                 fired = true;
-                Debug.Log("Spaaaaaawn");
                 onRangePress.Raise();
-                
             }
         }
     }
@@ -40,9 +43,15 @@ public class SpawnRanged : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(2.0f);
+            Debug.Log("am doin a shoot");
             fired = false;
+            yield return new WaitForSeconds(1.0f);
             break;
         }
+    }
+
+    public void CheckFunction()
+    {
+        
     }
 }
