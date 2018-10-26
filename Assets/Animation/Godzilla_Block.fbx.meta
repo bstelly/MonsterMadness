@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: dea062aa115b1f5468e5730db5179c4a
+guid: 0808be01281cc624d9ecfabb83f87394
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Godzilla1
-    100002: Godzilla_Head_JawEndSHJnt
-    100004: Godzilla_Head_JawSHJnt
-    100006: Godzilla_Head_TopSHJnt
-    100008: //RootNode
+    100002: //RootNode
+    100004: Godzilla_Head_JawEndSHJnt
+    100006: Godzilla_Head_JawSHJnt
+    100008: Godzilla_Head_TopSHJnt
     100010: Godzilla_l_Arm_ClavicleSHJnt
     100012: Godzilla_l_Arm_ElbowSHJnt
     100014: Godzilla_l_Arm_ShoulderSHJnt
@@ -69,10 +69,10 @@ ModelImporter:
     100126: Godzilla_tail_05SHJnt
     100128: Godzilla_tail_TopSHJnt
     400000: Godzilla1
-    400002: Godzilla_Head_JawEndSHJnt
-    400004: Godzilla_Head_JawSHJnt
-    400006: Godzilla_Head_TopSHJnt
-    400008: //RootNode
+    400002: //RootNode
+    400004: Godzilla_Head_JawEndSHJnt
+    400006: Godzilla_Head_JawSHJnt
+    400008: Godzilla_Head_TopSHJnt
     400010: Godzilla_l_Arm_ClavicleSHJnt
     400012: Godzilla_l_Arm_ElbowSHJnt
     400014: Godzilla_l_Arm_ShoulderSHJnt
@@ -133,7 +133,7 @@ ModelImporter:
     400124: Godzilla_tail_04SHJnt
     400126: Godzilla_tail_05SHJnt
     400128: Godzilla_tail_TopSHJnt
-    2100000: lambert3
+    2100000: Godzilla_UV_initialShadingGroup1
     4300000: Godzilla1
     7400000: Take 001
     9500000: //RootNode
@@ -165,35 +165,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 39
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c84814ce98f7d740a588991208bc52d
+guid: 68d83d4f27a96f0478ea68c2006b81d5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -55,19 +55,19 @@ ModelImporter:
     100098: Godzilla_r_thumb_01_02SHJnt
     100100: Godzilla_r_thumb_01_03SHJnt
     100102: Godzilla_ROOTSHJnt
-    100104: Godzilla_SHJntGrp
-    100106: Godzilla_Spine_01SHJnt
-    100108: Godzilla_Spine_02SHJnt
-    100110: Godzilla_Spine_03SHJnt
-    100112: Godzilla_Spine_04SHJnt
-    100114: Godzilla_Spine_TopSHJnt
-    100116: Godzilla_tail_01SHJnt
-    100118: Godzilla_tail_02SHJnt
-    100120: Godzilla_tail_03SHJnt
-    100122: Godzilla_tail_04SHJnt
-    100124: Godzilla_tail_05SHJnt
-    100126: Godzilla_tail_TopSHJnt
-    100128: //RootNode
+    100104: //RootNode
+    100106: Godzilla_SHJntGrp
+    100108: Godzilla_Spine_01SHJnt
+    100110: Godzilla_Spine_02SHJnt
+    100112: Godzilla_Spine_03SHJnt
+    100114: Godzilla_Spine_04SHJnt
+    100116: Godzilla_Spine_TopSHJnt
+    100118: Godzilla_tail_01SHJnt
+    100120: Godzilla_tail_02SHJnt
+    100122: Godzilla_tail_03SHJnt
+    100124: Godzilla_tail_04SHJnt
+    100126: Godzilla_tail_05SHJnt
+    100128: Godzilla_tail_TopSHJnt
     400000: Godzilla1
     400002: Godzilla_Head_JawEndSHJnt
     400004: Godzilla_Head_JawSHJnt
@@ -120,19 +120,19 @@ ModelImporter:
     400098: Godzilla_r_thumb_01_02SHJnt
     400100: Godzilla_r_thumb_01_03SHJnt
     400102: Godzilla_ROOTSHJnt
-    400104: Godzilla_SHJntGrp
-    400106: Godzilla_Spine_01SHJnt
-    400108: Godzilla_Spine_02SHJnt
-    400110: Godzilla_Spine_03SHJnt
-    400112: Godzilla_Spine_04SHJnt
-    400114: Godzilla_Spine_TopSHJnt
-    400116: Godzilla_tail_01SHJnt
-    400118: Godzilla_tail_02SHJnt
-    400120: Godzilla_tail_03SHJnt
-    400122: Godzilla_tail_04SHJnt
-    400124: Godzilla_tail_05SHJnt
-    400126: Godzilla_tail_TopSHJnt
-    400128: //RootNode
+    400104: //RootNode
+    400106: Godzilla_SHJntGrp
+    400108: Godzilla_Spine_01SHJnt
+    400110: Godzilla_Spine_02SHJnt
+    400112: Godzilla_Spine_03SHJnt
+    400114: Godzilla_Spine_04SHJnt
+    400116: Godzilla_Spine_TopSHJnt
+    400118: Godzilla_tail_01SHJnt
+    400120: Godzilla_tail_02SHJnt
+    400122: Godzilla_tail_03SHJnt
+    400124: Godzilla_tail_04SHJnt
+    400126: Godzilla_tail_05SHJnt
+    400128: Godzilla_tail_TopSHJnt
     2100000: lambert3
     4300000: Godzilla1
     7400000: Take 001
@@ -165,35 +165,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 24
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
