@@ -8,10 +8,10 @@ public class CameraBehaviour : MonoBehaviour
     public GameObject playerOne;
     public GameObject playerTwo;
 
-    void Update () {
-	    var midpoint = new Vector3((playerOne.transform.position.x + playerTwo.transform.position.x) / 2,
-	        (playerOne.transform.position.y + playerTwo.transform.position.y) / 2);
-	    transform.position = new Vector3(midpoint.x, midpoint.y, transform.position.z);
+    void Update ()
+    {
+        var midpoint = new Vector3((playerOne.transform.position.x + playerTwo.transform.position.x) / 2, 0);
+	    transform.position = new Vector3(midpoint.x, transform.position.y, transform.position.z);
 
     }
 }
